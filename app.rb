@@ -7,11 +7,8 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
-    @bookmarks = [
-      'http://www.gmail.com',
-      'http://www.facebook.com',
-      'http://www.google.com'
-    ]
+    p ENV
+    @bookmarks = Bookmark.all
     # bookmarks.join
     erb :'bookmarks/index'
   end
