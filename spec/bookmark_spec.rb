@@ -7,7 +7,7 @@ describe Bookmark do
 
       expect(@bookmarks).to include('http://www.gmail.com')
       expect(@bookmarks).to include('http://www.facebook.com')
-      expect(@bookmarks).to include('http://www.google.com')
+      expect(@bookmarks).to include('http://www.twitter.com')
     end
   end
 end
