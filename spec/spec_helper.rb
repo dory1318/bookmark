@@ -9,7 +9,7 @@ require 'simplecov'
 require 'pg'
 Capybara.app = BookmarkManager
 
-require_relative '/Users/Dori/Projects/bookmark/spec/setup_test_database.rb'
+require './spec/setup_test_database.rb'
 
 ENV['ENVIRONMENT'] = 'test'
 

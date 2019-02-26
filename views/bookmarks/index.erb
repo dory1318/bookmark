@@ -3,3 +3,8 @@
     <li><%= bookmark %></li>
   <% end %>
 </ul>
+
+<form action="/create" method="post">
+  <input type="text" name="url" required>
+  <input type="submit" value="Add">
+</form>

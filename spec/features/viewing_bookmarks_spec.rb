@@ -1,4 +1,4 @@
-require '/Users/Dori/Projects/bookmark/spec/spec_helper.rb'
+require './spec/spec_helper.rb'
 
 feature 'Viewing bookmarks' do
   scenario 'visiting the index page' do
