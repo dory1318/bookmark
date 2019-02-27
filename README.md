@@ -14,7 +14,7 @@ I want to be able to see a list of bookmarks.
 
 
 	CREATE DATABASE bookmark_manager;
-  CREATE DATABASE bookmark_manager_test;
+	CREATE DATABASE bookmark_manager_test;
 
 
 	To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
