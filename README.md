@@ -7,7 +7,13 @@ Creating a web app that stores bookmarks in a database
 As a user,
 So that I can see what is saved,
 I want to be able to see a list of bookmarks.
-
+```
+```
+As a user,
+So I can save several of my favourite websites,
+I want to be able to add new bookmarks.
+```
+```
 As a user,
 So I don't have to store unused websites,
 I want to be able do delete unnecessary bookmarks.
