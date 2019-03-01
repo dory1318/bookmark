@@ -11,7 +11,7 @@ So I don't have to store unused websites,
 I want to be able do delete unnecessary bookmarks.
 
 As a user,
-To save all the changes I made,
+So I can make changes,
 I want to be able to update bookmarks.
 
 As a user,
